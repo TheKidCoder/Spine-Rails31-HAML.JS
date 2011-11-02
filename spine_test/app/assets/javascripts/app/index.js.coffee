@@ -19,7 +19,7 @@ class App extends Spine.Controller
     super
     
     # Initialize controllers:
-    #  @append(@items = new App.Items)
+    @append(@posts = new App.Posts)
     #  ...
     
     Spine.Route.setup()    
