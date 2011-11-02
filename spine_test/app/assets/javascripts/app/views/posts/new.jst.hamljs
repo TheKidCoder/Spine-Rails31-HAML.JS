@@ -1,0 +1,14 @@
+%h1 New Post
+
+%form
+  
+  %label
+    %span Title
+    %input(type="text" name="title" required="true" autofocus="true")
+  %label
+    %span Content
+    %input(type="text" name="content" required="true")
+  %button Create
+  
+
+

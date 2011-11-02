@@ -1,0 +1,11 @@
+%h1 Show Post
+
+%a(data-type="back") Back
+
+%p
+  Title:
+  =title
+%p
+  Content:
+  =content
+

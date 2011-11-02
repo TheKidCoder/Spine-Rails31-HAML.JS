@@ -1,0 +1,14 @@
+%h1 Edit Post
+
+%form
+  
+  %label
+    %span Title
+    %input(type="text" name="title" value=title required="true" autofocus="true")
+  %label
+    %span Content
+    %input(type="text" name="content" value=content required="true")
+  %button Edit
+  
+
+
