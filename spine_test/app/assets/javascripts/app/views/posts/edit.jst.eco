@@ -1,0 +1,23 @@
+<h1>Edit Post</h1>
+
+<form>
+  
+  <label>
+    <span>Title</span>
+    <input 
+      type="text" name="title" 
+      value="<%= @title %>" required
+ autofocus>
+  </label>
+  
+  <label>
+    <span>Content</span>
+    <input 
+      type="text" name="content" 
+      value="<%= @content %>" required
+>
+  </label>
+  
+  <button>Edit</button>
+
+</form>
